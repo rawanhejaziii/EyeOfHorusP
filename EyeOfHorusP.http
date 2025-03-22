@@ -1,0 +1,6 @@
+@EyeOfHorusP_HostAddress = http://localhost:5164
+
+GET {{EyeOfHorusP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

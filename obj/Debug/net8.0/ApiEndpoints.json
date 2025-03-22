@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "EyeOfHorusP.Web.Controllers.AuthUserController",
+    "Method": "Login",
+    "RelativePath": "api/AuthUser/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequestDTO",
+        "Type": "EyeOfHorusP.Application.DTOs.Auth.LoginRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeOfHorusP.Web.Controllers.AuthUserController",
+    "Method": "Register",
+    "RelativePath": "api/AuthUser/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerRequestDTO",
+        "Type": "EyeOfHorusP.Application.DTOs.Auth.RegisterRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeOfHorusP.Web.Controllers.UserController",
+    "Method": "GetProfile",
+    "RelativePath": "api/User/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
